@@ -8,10 +8,39 @@ body {
 
 .header {
     border: solid 2px blue;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
     /* padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff; */
+}
+
+.header-left {
+    border: solid 2px red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+.header-left img {
+    margin-right: 10px;
+}
+
+.header-right {
+    border: solid 2px blue;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
 
 .main {
