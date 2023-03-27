@@ -168,6 +168,19 @@ body {
     color: black;
 }
 
-.footer {
+.footer-right {
     border: solid 2px blue;
 }
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+
