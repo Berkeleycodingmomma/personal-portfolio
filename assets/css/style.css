@@ -26,6 +26,8 @@ body {
     background-color: #d9dcd6;
 }
 
+
+
 .header {
     /* position: fixed;
     top: 0; */
@@ -98,6 +100,11 @@ body {
     border-bottom: solid 3px #b05737;
 }
 
+.list-wrap {
+    justify-content: center;
+    align-items: center;
+}
+
 
 .app-wrap {
     justify-content: center;
@@ -147,6 +154,11 @@ body {
     background-position: center;
 }
 
+.react-work a {
+    text-decoration: none;
+}
+
+
 .node-work a {
     text-decoration: none;
 }
@@ -166,6 +178,32 @@ body {
 }
 
 .node-overlay h2 {
+    color: black;
+}
+
+.mern-work {
+    height: 250px;
+    width: 48%;
+    background-image: url(../images/MERN.webp);
+    background-size: cover;
+    background-position: center;
+}
+.mern-work a {
+    text-decoration: none;
+}
+
+.html-css-work {
+    height: 250px;
+    width: 48%;
+    background-image: url(../images/images.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.html-css-work a {
+    text-decoration: none;
+}
+
+ .html-css-work-overlay h2 {
     color: black;
 }
 
@@ -205,18 +243,28 @@ body {
     font-weight: 700;
 }
 
-/* .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 40%;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-size: 20px;
-    border: solid 2px blue;
-} */
 
+@media screen and (max-width: 870px) {
+    .header-right {
+        width: 60%;
+    }
+
+    .small-work-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .small-work-row >div {
+        margin-bottom: 2px;
+    }
+    
+
+    .footer-right {
+        width: 80%;
+    }
+}
 
 @media screen and (min-width: 480px) {
     #leftsidebar {
