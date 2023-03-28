@@ -37,6 +37,6 @@ I learned how to organize a website by designing my layout in boxes. After addin
 
 * [LinkedIn](https://www.linkedin.com/in/amanda-gray-831a65254/)
 * [Github (deployed application)](https://github.com/Berkeleycodingmomma/personal-portfolio)
-* [Github (live link)](https://github.com/Berkeleycodingmomma/personal-portfolio)
+* [Github (live link)](https://berkeleycodingmomma.github.io/personal-portfolio/)
 ```
 
